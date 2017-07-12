@@ -1,0 +1,28 @@
+<!--
+  Generated template for the ProjectPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{user.name}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-item-sliding *ngFor="let project of user.projects">
+      <ion-item>
+        <p> {{project.title}}</p>
+        <p> {{project.year}}</p>
+      </ion-item>
+      <ion-item-options side="right">
+        <button ion-button (click)="deleteProject(project)">Delete</button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "name": "Artem",
+    "image": "http://loremflickr.com/200/200",
+    "age": 23,
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequuntur deleniti dolor dolores, eius illum natus nostrum quae quas qui!",
+    "projects": [
+      {
+        "id": 1,
+        "title": "Project 1",
+        "year": 2016
+      },
+      {
+        "id": 2,
+        "title": "Project 2",
+        "year": 2015
+      },
+      {
+        "id": 3,
+        "title": "Project 3",
+        "year": 2014
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Vasia",
+    "image": "http://loremflickr.com/200/200",
+    "age": 18,
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequuntur deleniti dolor dolores, eius illum natus nostrum quae quas qui!",
+    "projects": [
+      {
+        "id": 1,
+        "title": "Project 1",
+        "year": 2016
+      },{
+        "id": 4,
+        "title": "Project 4",
+        "year": 2018
+      },
+      {
+        "id": 2,
+        "title": "Project 2",
+        "year": 2015
+      },
+      {
+        "id": 3,
+        "title": "Project 3",
+        "year": 2014
+      }
+    ]
+  }
+]
